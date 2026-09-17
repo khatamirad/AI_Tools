@@ -24,7 +24,7 @@ To use a local model instead of OpenAI, install [Ollama](https://ollama.com), pu
 
 ## Usage
 
-Open `literature_radar.ipynb` and:
+Open `lit_radar.ipynb` and:
 
 1. Set `keyword` to whatever you want to search for.
 2. Set `provider` to `"openai"` or `"ollama"`, and `model` to the model name.
