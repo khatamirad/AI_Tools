@@ -36,12 +36,8 @@ Results are saved as `<keyword>.xlsx` in the same folder.
 
 - Nature only — no other publishers/search engines yet.
 - Scraping depends on Nature's current page markup; if they change their HTML, the link-extraction step will need updating.
-- No rate-limiting between requests and no retry logic — one failed fetch (network blip, article behind a different template) stops the run.
-- Keyword/provider/model are set by editing notebook cells, not passed as arguments.
 
 ## Possible next steps
 
-- Add a small delay + a real `User-Agent` header to be a better-behaved scraper.
-- Wrap the per-article fetch in a try/except so one bad URL doesn't kill the whole batch.
 - Support more sources beyond Nature (arXiv, Google Scholar, etc.).
 - Turn `keyword` / `provider` / `model` into command-line arguments or a simple config file.
