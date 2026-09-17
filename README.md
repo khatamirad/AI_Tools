@@ -6,8 +6,8 @@ Most of these start as practice projects (from courses, work, or just curiosity)
 
 ## Tools
 
-| Tool | Description | Status |
-|---|---|---|
+| Tool | Description |
+|---|---|
 | [`literature-radar`](./literature_radar) | Searches Nature for a keyword and uses an LLM (OpenAI or local via Ollama) to summarize and rank how relevant each result is.
 
 More will be added over time — check back now and then.
